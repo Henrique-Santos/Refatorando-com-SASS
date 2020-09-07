@@ -4,13 +4,13 @@
      border-radius: $raio;
 }
    
-@mixin sombra_padrao {
+%sombra_padrao {
 
      -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
      box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
 
-@mixin image-replacement {
+%image_replacement {
 
      text-indent: -9999px;
      overflow: hidden;
