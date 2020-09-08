@@ -19,7 +19,7 @@
 
 @function multiplica_pela_fonte($multiplicador) {
 
-     @return $multiplicador * $tamanho_da_fonte_padrao;
+     @return round($multiplicador * $tamanho_da_fonte_padrao);
 }
 
 @import "compass/css3";
