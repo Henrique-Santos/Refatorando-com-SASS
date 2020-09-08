@@ -3,8 +3,13 @@ body {
 }
 
 .container {
+
      width: 940px;
      margin: 0 auto;
+
+     @media #{$mq_mobile} {
+          width: 90%;
+     }
 }
 
 .titulo-secao {

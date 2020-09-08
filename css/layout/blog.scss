@@ -18,9 +18,14 @@
 
 .post-destaque,
 .posts-antigos {
+
     width: 48%;
     display: inline-block;
     vertical-align: top;
+
+    @media #{$mq_mobile} {
+        width: auto;
+    }
 }
 
 .post-destaque {
